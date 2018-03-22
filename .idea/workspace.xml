@@ -2,10 +2,103 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ade085c-2244-4140-a001-a6ab5dce69d9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Osiris/CPPI.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Osiris/OBPI.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Strategies/__init__.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Utilities/WebConnectDownload/MarketDataDownloader.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/Museum.iml" afterPath="$PROJECT_DIR$/.idea/Museum.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Osiris/Strategies/BS01.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Osiris/Strategies/BS02.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QuantPack/CommoDerivatives/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QuantPack/CreditDerivatives/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QuantPack/EquityDerivatives/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QuantPack/FxDerivatives/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QuantPack/IntRatesDerivatives/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QuantPack/MathsTools/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QuantPack/Products/Equity.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QuantPack/Products/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/QuantPack/Volatility/Dupire.py" afterPath="$PROJECT_DIR$/QuantPack/Volatility/Dupire.py" />
+      <change beforePath="$PROJECT_DIR$/QuantPack/Volatility/Heston.py" afterPath="$PROJECT_DIR$/QuantPack/Volatility/Heston.py" />
+      <change beforePath="$PROJECT_DIR$/QuantPack/Volatility/ImpliedVol.py" afterPath="$PROJECT_DIR$/QuantPack/Volatility/ImpliedVol.py" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Utilities/CreateListFromCSV.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Utilities/CreateListFromXL.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Utilities/CsvReader.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Utilities/DumpToCSV.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Utilities/DumpToXL.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Utilities/ExcelReader.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Utilities/WebConnectDownload/DownloadParams.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Utilities/WebConnectDownload/EquityDownloader.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Utilities/WebConnectDownload/OptionsDownloader.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/_testing.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/_utils.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/base.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/compat/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/data.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/edgar.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/enigma.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/eurostat.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/famafrench.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/fred.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/google/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/google/daily.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/google/options.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/google/quotes.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/io/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/io/jsdmx.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/io/sdmx.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/io/util.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/nasdaq_trader.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/oecd.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/quandl.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/data/banklist.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/data/banklist.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/data/computer_sales_page.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/data/html_encoding/chinese_utf-16.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/data/html_encoding/chinese_utf-32.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/data/html_encoding/chinese_utf-8.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/data/html_encoding/letz_latin1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/data/macau.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/data/nyse_wsj.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/data/spam.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/data/valid_markup.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/data/wikipedia_states.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/google/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/google/test_google.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/google/test_options.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/io/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/io/data/jsdmx/land_use.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/io/data/jsdmx/tourism.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/io/data/sdmx/DSD_cdh_e_fos.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/io/data/sdmx/cdh_e_fos.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/io/test_jsdmx.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/io/test_sdmx.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/test_base.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/test_data.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/test_edgar.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/test_enigma.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/test_eurostat.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/test_famafrench.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/test_fred.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/test_nasdaq.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/test_oecd.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/test_quandl.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/test_tsp.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/test_wb.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/yahoo/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/yahoo/data/yahoo_options1.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/yahoo/data/yahoo_options2.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/yahoo/test_options.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tests/yahoo/test_yahoo.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/tsp.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/wb.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/yahoo/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/yahoo/actions.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/yahoo/components.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/yahoo/daily.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/yahoo/options.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pandas_datareader/yahoo/quotes.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,18 +108,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ExcelReader.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Utilities/ExcelReader.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="35" column="67" lean-forward="false" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,56 +117,77 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>GoogleOptions</find>
+      <find>Data</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/QuantPack/Econometrics/Garch.py" />
-        <option value="$PROJECT_DIR$/QuantPack/Products/Equity.py" />
-        <option value="$PROJECT_DIR$/QuantPack/Volatility/Dupire.py" />
-        <option value="$PROJECT_DIR$/QuantPack/Volatility/Stochastic.py" />
-        <option value="$PROJECT_DIR$/QuantPack/Volatility/Heston.py" />
-        <option value="$PROJECT_DIR$/QuantPack/Volatility/ImpliedVol.py" />
-        <option value="$PROJECT_DIR$/QuantPack/Volatility/Skew.py" />
-        <option value="$PROJECT_DIR$/Osiris/CPPI.py" />
-        <option value="$PROJECT_DIR$/Osiris/OBPI.py" />
-        <option value="$PROJECT_DIR$/Utilities/WebConnectDownload/DonwloadStockData.py" />
-        <option value="$PROJECT_DIR$/Utilities/WebConnectDownload/DonwloadOptionData.py" />
-        <option value="$PROJECT_DIR$/Utilities/WebConnectDownload/GetStockData.py" />
-        <option value="$PROJECT_DIR$/Utilities/WebConnectDownload/GetOptionData.py" />
-        <option value="$PROJECT_DIR$/Utilities/WebConnectDownload/DownloadStockData.py" />
-        <option value="$PROJECT_DIR$/Utilities/WebConnectDownload/DownloadOptionData.py" />
-        <option value="$PROJECT_DIR$/Utilities/CreateTickerList.py" />
-        <option value="$PROJECT_DIR$/Utilities/CreateParametersList.py" />
-        <option value="$PROJECT_DIR$/Utilities/DumpResults.py" />
-        <option value="$PROJECT_DIR$/Utilities/WebConnectDownload/TestForTicker.py" />
-        <option value="$PROJECT_DIR$/Utilities/WebConnectDownload/DownloadData.py" />
-        <option value="$PROJECT_DIR$/Utilities/WebConnectDownload/DownloadParams.py" />
-        <option value="$PROJECT_DIR$/Utilities/WebConnectDownload/EquityDownloader.py" />
-        <option value="$PROJECT_DIR$/Utilities/WebConnectDownload/OptionsDownloader.py" />
-        <option value="$PROJECT_DIR$/Utilities/CreateListFromXL.py" />
-        <option value="$PROJECT_DIR$/Utilities/CreateListFromCSV.py" />
-        <option value="$PROJECT_DIR$/Utilities/DumpToXL.py" />
-        <option value="$PROJECT_DIR$/Utilities/DumpToCSV.py" />
-        <option value="$PROJECT_DIR$/Osiris/Strategies/CPPI.py" />
-        <option value="$PROJECT_DIR$/Osiris/Strategies/OBPI.py" />
-        <option value="$PROJECT_DIR$/Osiris/Strategies/BS02.py" />
-        <option value="$PROJECT_DIR$/Utilities/CsvReader.py" />
-        <option value="$PROJECT_DIR$/QuantPack/Econometrics/EGARCH.py" />
-        <option value="$PROJECT_DIR$/QuantPack/Econometrics/MSM.py" />
-        <option value="$PROJECT_DIR$/QuantPack/Econometrics/MSGARCH.py" />
-        <option value="$PROJECT_DIR$/Osiris/Strategies/BS01.py" />
-        <option value="$PROJECT_DIR$/Utilities/ExcelReader.py" />
+        <option value="$PROJECT_DIR$/QuantPack/Equity/Products/Options/Pricing.py" />
+        <option value="$PROJECT_DIR$/tri.py" />
+        <option value="$PROJECT_DIR$/Utilities/WebConnectDownload/MarketDataDownloader.py" />
+        <option value="$PROJECT_DIR$/ExecutableRequest/ScriptLauncher.py" />
+        <option value="$PROJECT_DIR$/Utilities/TypeConverter.py" />
+        <option value="$PROJECT_DIR$/Utilities/WebConnectDownload/DownloadStockMarketData.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/Option.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/DeltaOne/Equity/EquitySwap.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/DeltaOne/Equity/EquityTotalReturnSwap.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/DeltaOne/Equity/StockLoan.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/DeltaOne/Equity/EquityRepo.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/DeltaOne/Equity/EquityBasketSwap.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/Notes/Certificates.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/Notes/Autocall.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/Notes/ReverseConvertible.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/Options/Vanilla/EuropeanOption.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/Options/Vanilla/AmericanOption.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/Options/Vanilla/Spread.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/Options/Vanilla/AsianOption.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/Options/Exotic.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/Options/Exotic/LookbackOption.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/Options/Exotic/BarrierOption.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/Options/Exotic/ForwardStart.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/Options/Exotic/DigitalOption.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/Options/Exotic/BasketOption.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/Options/Exotic/WorstBestOption.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/Options/Exotic/RatchetOption.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/Options/Exotic/PowerOption.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/Options/Exotic/InstalmentOption.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/Options/Exotic/StairsOption.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/Options/Exotic/CompoundOption.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/DeltaOne/Equity/EquityForward.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/Options/VarianceSwap.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/Options/Exotic/VarianceSwap.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/DeltaOne/InterestRate.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/DeltaOne/InterestRate/InterestRateSwap.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/DeltaOne/InterestRate/CouponBond.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/DeltaOne/InterestRate/ZeroCouponBond.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/DeltaOne/InterestRate/XCurrencySwap.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/DeltaOne/InterestRate/CreditDefaultSwap.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/DeltaOne/InterestRate/ForwardRate.py" />
+        <option value="$PROJECT_DIR$/ProductPricing/Options/Vanilla/Equity.py" />
+        <option value="$PROJECT_DIR$/QuantPack/Calibration/CalibrateVolatilityModel.py" />
+        <option value="$PROJECT_DIR$/QuantPack/Calibration/CalibrateInterestRateModels.py" />
+        <option value="$PROJECT_DIR$/ExecutableRequest/Launcher/BackTestLauncher.py" />
+        <option value="$PROJECT_DIR$/Osiris/Strategies/RollOptions.py" />
+        <option value="$PROJECT_DIR$/Osiris/Strategies/RollFutures.py" />
+        <option value="$PROJECT_DIR$/Osiris/Strategies/MeanReversion.py" />
+        <option value="$PROJECT_DIR$/Osiris/StratLab/BS01.py" />
+        <option value="$PROJECT_DIR$/PLpack/RiskMetrics/LiquidityCjeck.py" />
+        <option value="$PROJECT_DIR$/PLpack/RiskMetrics/GreeksExposure.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="506" />
-    <option name="y" value="18" />
-    <option name="width" value="683" />
-    <option name="height" value="728" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1348" />
+    <option name="y" value="55" />
+    <option name="width" value="1280" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -104,7 +207,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,21 +214,26 @@
               <item name="Museum" type="b2602c69:ProjectViewProjectNode" />
               <item name="Museum" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Museum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Museum" type="462c0819:PsiDirectoryNode" />
-              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="SearchEverywhereHistoryKey" value="_&#9;FILE&#9;file:///Volumes/SECURITY 1/Vincent/BSCM/ATM/IT/Museum/ExecutableRequest/__init__.py&#10;YahooDailyReader&#9;null&#9;null&#10;stock price&#9;null&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Utilities" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ExecutableRequest" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,32 +247,98 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.actions">
-    <configuration name="actions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ScriptLauncher">
+    <configuration name="OptionDownloader" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pandas_datareader/yahoo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Utilities/WebConnectDownload" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Museum" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pandas_datareader/yahoo/actions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Utilities/WebConnectDownload/OptionDownloader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="ScriptLauncher" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ExecutableRequest" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Museum" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ExecutableRequest/ScriptLauncher.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Museum" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="tri" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Museum" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tri.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.ScriptLauncher" />
+      <item index="1" class="java.lang.String" itemvalue="Python.OptionDownloader" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.tri" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.actions" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.tri" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.OptionDownloader" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -178,19 +351,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="1348" y="55" width="1280" height="745" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1376702" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1985703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31423897" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2913257" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39800286" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32599726" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3149931" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.3169643" sideWeight="0.6820313" order="8" side_tool="false" content_ui="tabs" x="651" y="108" width="971" height="406" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2877698" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35213205" sideWeight="0.496875" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -198,6 +370,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -206,287 +379,444 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Utilities/ExcelReader.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="3" />
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Utilities/WebConnectDownload/OptionDownloader.py</url>
+          <line>146</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Utilities/ExcelReader.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/Utilities/WebConnectDownload/MarketDataDownloader.py</url>
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="67" />
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>len(self.list_asset_class) == 1 and 'equity' in self.list_asset_class</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/QuantPack/Volatility/Dupire.py">
+    <entry file="file://$PROJECT_DIR$/ExecutableRequest/StandardPriceable.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QuantPack/Volatility/Stochastic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QuantPack/Volatility/Heston.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QuantPack/Volatility/ImpliedVol.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QuantPack/Volatility/Skew.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Osiris/CPPI.py" />
-    <entry file="file://$PROJECT_DIR$/Osiris/OBPI.py" />
-    <entry file="file://$PROJECT_DIR$/QuantPack/Econometrics/Garch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QuantPack/Volatility/Stochastic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QuantPack/Volatility/Dupire.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QuantPack/Products/Equity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QuantPack/Volatility/Heston.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QuantPack/Volatility/ImpliedVol.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QuantPack/Volatility/Skew.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Osiris/CPPI.py" />
-    <entry file="file://$PROJECT_DIR$/Osiris/OBPI.py" />
-    <entry file="file://$PROJECT_DIR$/Utilities/WebConnectDownload/DonwloadOptionData.py" />
-    <entry file="file://$PROJECT_DIR$/Utilities/WebConnectDownload/DonwloadStockData.py" />
-    <entry file="file://$PROJECT_DIR$/Utilities/WebConnectDownload/DownloadOptionData.py" />
-    <entry file="file://$PROJECT_DIR$/Utilities/WebConnectDownload/DownloadStockData.py" />
-    <entry file="file://$PROJECT_DIR$/Utilities/WebConnectDownload/GetOptionData.py" />
-    <entry file="file://$PROJECT_DIR$/Utilities/WebConnectDownload/GetStockData.py" />
-    <entry file="file://$PROJECT_DIR$/Utilities/CreateTickerList.py" />
-    <entry file="file://$PROJECT_DIR$/Utilities/CreateParametersList.py" />
-    <entry file="file://$PROJECT_DIR$/Utilities/DumpResults.py" />
-    <entry file="file://$PROJECT_DIR$/Utilities/WebConnectDownload/TestForTicker.py" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_import_hook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities/WebConnectDownload/DownloadData.py" />
-    <entry file="file://$PROJECT_DIR$/Utilities/WebConnectDownload/EquityDownloader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities/WebConnectDownload/OptionsDownloader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities/WebConnectDownload/DownloadParams.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities/CreateListFromXL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities/CreateListFromCSV.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities/DumpToXL.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities/DumpToCSV.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pandas_datareader/yahoo/actions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pandas_datareader/yahoo/daily.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pandas_datareader/tests/yahoo/test_options.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pandas_datareader/quandl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Osiris/Strategies/CPPI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Osiris/Strategies/OBPI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Osiris/Strategies/BS02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities/CsvReader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QuantPack/Econometrics/EGARCH.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QuantPack/Econometrics/MSM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Osiris/Strategies/BS01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="69" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pandas_datareader/_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QuantPack/Econometrics/MSGARCH.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Anaconda/Lib/site-packages/IPython/core/interactiveshell.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="2880" column="0" lean-forward="false" selection-start-line="2880" selection-start-column="0" selection-end-line="2880" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utilities/ExcelReader.py">
+    <entry file="file://$PROJECT_DIR$/Utilities/TypeConverter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="35" column="67" lean-forward="false" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
+        <state relative-caret-position="105">
+          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/Option.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/DeltaOne/Equity/EquitySwap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/DeltaOne/Equity/EquityTotalReturnSwap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/DeltaOne/Equity/StockLoan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/DeltaOne/Equity/EquityRepo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/DeltaOne/Equity/EquityBasketSwap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/Notes/Certificates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/Notes/Autocall.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/Notes/ReverseConvertible.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/Options/Vanilla/EuropeanOption.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/Options/Vanilla/AmericanOption.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/Options/Vanilla/Spread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/Options/Exotic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/Options/Vanilla/AsianOption.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/Options/Exotic/LookbackOption.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/Options/Exotic/BarrierOption.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/Options/Exotic/ForwardStartOption.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/Options/Exotic/DigitalOption.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/Options/Exotic/BasketOption.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/Options/Exotic/WorstBestOption.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/Options/Exotic/RatchetOption.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/Options/Exotic/PowerOption.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/Options/Exotic/InstalmentOption.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/Options/Exotic/StairsOption.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/Options/Exotic/CompoundOption.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/DeltaOne/Equity/EquityForward.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/Options/VarianceSwap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/DeltaOne/InterestRate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/Options/Exotic/VarianceSwap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/DeltaOne/InterestRate/InterestRateSwap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/DeltaOne/InterestRate/ZeroCouponBond.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/DeltaOne/InterestRate/XCurrencySwap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/DeltaOne/InterestRate/CreditDefaultSwap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/Options/Vanilla/Equity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/DeltaOne/InterestRate/ForwardRate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QuantPack/Equity/Products/Options/OptionInterpolationFromMarketPrices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QuantPack/Equity/Products/Options/EQDPriceable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QuantPack/Equity/Products/Options/Pricing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/DeltaOne/InterestRate/CouponBond.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QuantPack/Calibration/CalibrateVolatilityModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QuantPack/Calibration/CalibrateInterestRateModels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProductPricing/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExecutableRequest/Launcher/BackTestLauncher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Osiris/Strategies/RollOptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Osiris/Strategies/RollFutures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Osiris/Strategies/MeanReversion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Osiris/StratLab/BS01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PLpack/RiskMetrics/LiquidityCheck.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PLpack/RiskMetrics/GreeksExposure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
